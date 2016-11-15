@@ -2,15 +2,35 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <profile name="SBT 1" modules="root">
-      <option name="postfixOps" value="true" />
-      <option name="reflectiveCalls" value="true" />
-      <option name="implicitConversions" value="true" />
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
       <parameters>
         <parameter value="-encoding" />
         <parameter value="utf8" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Yinline-warnings" />
+        <parameter value="-Ywarn-adapted-args" />
+        <parameter value="-Ywarn-dead-code" />
+        <parameter value="-Ywarn-inaccessible" />
+        <parameter value="-Ywarn-nullary-override" />
+        <parameter value="-Ywarn-nullary-unit" />
+        <parameter value="-Xlog-free-terms" />
+        <parameter value="-Xlint:adapted-args" />
+        <parameter value="-Xlint:nullary-unit" />
+        <parameter value="-Xlint:inaccessible" />
+        <parameter value="-Xlint:nullary-override" />
+        <parameter value="-Xlint:infer-any" />
+        <parameter value="-Xlint:-missing-interpolator" />
+        <parameter value="-Xlint:doc-detached" />
+        <parameter value="-Xlint:private-shadow" />
+        <parameter value="-Xlint:type-parameter-shadow" />
+        <parameter value="-Xlint:poly-implicit-overload" />
+        <parameter value="-Xlint:option-implicit" />
+        <parameter value="-Xlint:delayedinit-select" />
+        <parameter value="-Xlint:by-name-right-associative" />
+        <parameter value="-Xlint:package-object-classes" />
+        <parameter value="-Xlint:unsound-match" />
       </parameters>
     </profile>
   </component>

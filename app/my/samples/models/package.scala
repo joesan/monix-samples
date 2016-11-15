@@ -19,4 +19,4 @@ package object models {
         )
     }
   }
-}g
+}

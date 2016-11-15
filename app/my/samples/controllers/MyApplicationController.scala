@@ -6,7 +6,6 @@ import play.api.libs.json.JsValue
 import play.api.libs.streams.ActorFlow
 import play.api.mvc.WebSocket.MessageFlowTransformer
 
-// how to close this publish channel in the AppBindings?
 final class MyApplicationController(bindings: AppBindings) extends Controller {
 
   implicit val messageFlowTransformer =
@@ -20,10 +19,10 @@ final class MyApplicationController(bindings: AppBindings) extends Controller {
   }
 
   def observable = WebSocket.accept[JsValue, JsValue] { request =>
-    ActorFlow.actorRef(out => MyWebSocketActor.props(bindings.globalChannel, out))
+    ActorFlow.actorRef(out => MyWebSocketActor.props(bindings.globalChannel.publishChannel, out))
   }
 
   def connectableObservable = WebSocket.accept[JsValue, JsValue] { request =>
-    ActorFlow.actorRef(out => MyWebSocketActor.props(bindings.globalChannel, out))
+    ActorFlow.actorRef(out => MyWebSocketActor.props(bindings.globalChannel.publishChannel, out))
   }
 }

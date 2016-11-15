@@ -3,9 +3,8 @@ package my.samples.core
 import com.typesafe.config.ConfigFactory
 import com.typesafe.scalalogging.{ LazyLogging, StrictLogging }
 import controllers.Assets
-import play.api.{ Application, BuiltInComponentsFromContext }
+import play.api.{ Application, BuiltInComponentsFromContext, Configuration, _ }
 import play.api.libs.ws.ahc.AhcWSComponents
-import play.api._
 import my.samples.controllers.MyApplicationController
 import play.api.ApplicationLoader.Context
 import play.api.routing.Router
@@ -16,8 +15,13 @@ import scala.concurrent.Future
 final class MyApplicationLoader extends ApplicationLoader with LazyLogging {
 
   override def load(context: Context): Application = {
-    val cfg = ConfigFactory.defaultApplication()
-    new MyApp(context).application
+    val configuration = Configuration(ConfigFactory.load())
+
+    val newContext = context.copy(initialConfiguration = configuration)
+    LoggerConfigurator(newContext.environment.classLoader)
+      .foreach(_.configure(newContext.environment))
+
+    new MyApp(newContext).application
   }
 }
 class MyApp(context: Context)

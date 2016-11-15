@@ -5,15 +5,15 @@ import com.typesafe.scalalogging.LazyLogging
 import monix.execution.Ack.Continue
 import monix.execution.cancelables.SingleAssignmentCancelable
 import monix.execution.{ Ack, Scheduler }
-import monix.reactive.Observable
 import monix.reactive.observers.Subscriber
+import monix.reactive.subjects.ConcurrentSubject
 import my.samples.models.MyMessages
 import org.joda.time.DateTime
 import play.api.libs.json._
 
 import scala.concurrent.Future
 
-class MyWebSocketActor(producer: Observable[MyMessages], consumer: ActorRef)(implicit s: Scheduler) extends Actor with LazyLogging {
+class MyWebSocketActor(producer: ConcurrentSubject[MyMessages, MyMessages], consumer: ActorRef)(implicit s: Scheduler) extends Actor with LazyLogging {
 
   //private[this] val logger = Logger
   private[this] val cancelable = SingleAssignmentCancelable()
@@ -67,7 +67,7 @@ class MyWebSocketActor(producer: Observable[MyMessages], consumer: ActorRef)(imp
 
 object MyWebSocketActor {
   implicit val s = monix.execution.Scheduler.Implicits.global
-  def props(producer: Observable[MyMessages], consumer: ActorRef) =
+  def props(producer: ConcurrentSubject[MyMessages, MyMessages], consumer: ActorRef) =
     {
       println("in the WebSocket Actor")
       Props(new MyWebSocketActor(producer, consumer))

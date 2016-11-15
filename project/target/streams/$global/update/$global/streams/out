@@ -1780,42 +1780,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->default(compile)]
-[info] Resolving org.scalariform#sbt-scalariform;1.6.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scalariform#sbt-scalariform;1.6.0 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scalariform#sbt-scalariform;1.6.0
-[debug] 	found org.scalariform#sbt-scalariform;1.6.0 in sbt-chain
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->runtime]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[info] Resolving org.scalariform#scalariform_2.10;0.1.8 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scalariform#scalariform_2.10;0.1.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scalariform#scalariform_2.10;0.1.8
-[debug] 	found org.scalariform#scalariform_2.10;0.1.8 in sbt-chain
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [compile->runtime(*)]
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [compile->compile]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [runtime->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [runtime->compile]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->master]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#monix-samples-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#monix-samples-build;0.1-SNAPSHOT [compile]
@@ -3157,32 +3121,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->default(compile)]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->runtime]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [runtime->compile]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [runtime->compile]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->master]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#monix-samples-build;0.1-SNAPSHOT [test]
 [debug] == resolving dependencies for default#monix-samples-build;0.1-SNAPSHOT [runtime]
@@ -4525,32 +4463,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->default(compile)]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->runtime]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [runtime->compile]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [runtime->compile]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->master]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#monix-samples-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
@@ -6722,32 +6634,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->default(compile)]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->runtime]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [runtime->compile]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [runtime->compile]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->master]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies for default#monix-samples-build;0.1-SNAPSHOT [optional]
 [debug] == resolving dependencies for default#monix-samples-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
@@ -8700,32 +8586,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->default(compile)]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->runtime]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [runtime->compile]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [runtime->compile]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->master]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies for default#monix-samples-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#monix-samples-build;0.1-SNAPSHOT [test-internal]
@@ -10070,32 +9930,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->default(compile)]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->runtime]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [compile->compile(*)]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalariform#sbt-scalariform;1.6.0->org.scalariform#scalariform_2.10;0.1.8 [runtime->compile]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.8->org.scala-lang#scala-library;2.10.6 [runtime->compile]
-[debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scalariform#sbt-scalariform;1.6.0 [compile->master]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies for default#monix-samples-build;0.1-SNAPSHOT [optional]
 [debug] == resolving dependencies for default#monix-samples-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#monix-samples-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
@@ -10764,7 +10598,6 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] com.typesafe.play#sbt-plugin;2.5.9!sbt-plugin.jar
-[debug] 	[NOT REQUIRED] org.scalariform#sbt-scalariform;1.6.0!sbt-scalariform.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#sbt-routes-compiler_2.10;2.5.9!sbt-routes-compiler_2.10.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#sbt-run-support_2.10;2.5.9!sbt-run-support_2.10.jar
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(bundle)
@@ -10849,7 +10682,6 @@
 [debug] 	[NOT REQUIRED] io.apigee#rhino;1.7R5pre4!rhino.jar
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar
 [debug] 	[NOT REQUIRED] org.webjars#npm;2.11.2!npm.jar
-[debug] 	[NOT REQUIRED] org.scalariform#scalariform_2.10;0.1.8!scalariform_2.10.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.11!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.11!main.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.11!compiler-interface.jar
@@ -10900,7 +10732,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 4356ms :: artifacts dl 140ms
+[debug] :: resolution report :: resolve 5059ms :: artifacts dl 142ms
 [debug] 	report for default#monix-samples-build;0.1-SNAPSHOT compile produced in /Users/jothi/Projects/Sandbox/monix-samples/project/target/resolution-cache/reports/default-monix-samples-build-compile.xml
 [debug] 	report for default#monix-samples-build;0.1-SNAPSHOT runtime produced in /Users/jothi/Projects/Sandbox/monix-samples/project/target/resolution-cache/reports/default-monix-samples-build-runtime.xml
 [debug] 	report for default#monix-samples-build;0.1-SNAPSHOT test produced in /Users/jothi/Projects/Sandbox/monix-samples/project/target/resolution-cache/reports/default-monix-samples-build-test.xml
@@ -10914,5 +10746,5 @@
 [debug] 	report for default#monix-samples-build;0.1-SNAPSHOT docs produced in /Users/jothi/Projects/Sandbox/monix-samples/project/target/resolution-cache/reports/default-monix-samples-build-docs.xml
 [debug] 	report for default#monix-samples-build;0.1-SNAPSHOT pom produced in /Users/jothi/Projects/Sandbox/monix-samples/project/target/resolution-cache/reports/default-monix-samples-build-pom.xml
 [debug] 	report for default#monix-samples-build;0.1-SNAPSHOT scala-tool produced in /Users/jothi/Projects/Sandbox/monix-samples/project/target/resolution-cache/reports/default-monix-samples-build-scala-tool.xml
-[debug] 	resolve done (4356ms resolve - 140ms download)
+[debug] 	resolve done (5059ms resolve - 142ms download)
 [info] Done updating.

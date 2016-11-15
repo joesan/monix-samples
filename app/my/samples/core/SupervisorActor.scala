@@ -5,7 +5,6 @@ import com.typesafe.scalalogging.LazyLogging
 import monix.execution.Scheduler
 import monix.execution.cancelables.CompositeCancelable
 import monix.reactive.observables.ConnectableObservable
-import my.samples.GlobalOutputChannel
 import my.samples.observables.{ MyConnectableObservable, MyObservable }
 import my.samples.observers.MyObserver
 import my.samples.models.MyMessages.{ Destroy, Init, Tick }

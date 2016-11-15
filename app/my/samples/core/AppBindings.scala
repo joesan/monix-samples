@@ -2,7 +2,6 @@ package my.samples.core
 
 import akka.actor.{ ActorRef, ActorSystem }
 import akka.stream.Materializer
-import my.samples.GlobalOutputChannel
 
 trait AppBindings {
 
