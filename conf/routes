@@ -1,0 +1,15 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# TEST PAGE
+GET			/							my.samples.controllers.MyApplicationController.home
+
+# MyObservable
+GET			/observable					my.samples.controllers.MyApplicationController.observable
+
+# MyConnectableObservable
+GET			/connectableObservable		my.samples.controllers.MyApplicationController.connectableObservable
+
+# Map static resources from the /public folder to the /assets URL path
+GET			/assets/*file				controllers.Assets.versioned(path="/public", file: Asset)
