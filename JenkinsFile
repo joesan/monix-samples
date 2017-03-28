@@ -1,0 +1,20 @@
+#!groovy
+
+node {
+  docker.withRegistry('', '') { // TODO: what is the docker credentialsId?
+    git credentialsId: '630bd271-01e7-48c3-bc5f-5df059c1abb8', url: 'https://github.com/joesan/monix-samples.git'
+    
+    sh "git rev-parse HEAD > .git/commit-id"
+    def commit_id = readFile('.git/commit-id').trim()
+    println comit_id
+    
+    stage "build" {
+      def app = docker.build "Monix-Sample"
+    }
+    
+    stage "publish" {
+      app.push 'master'
+      app.push "${commit_id}"
+    }
+  }
+}
