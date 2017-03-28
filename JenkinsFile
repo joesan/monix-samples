@@ -1,7 +1,8 @@
 #!groovy
 
 node {
-  docker.withRegistry('', '') { // TODO: what is the docker credentialsId?
+  // set this in Jenkins server under Manage Jenkins > Credentials > System > Global Credentials
+  docker.withRegistry('https://hub.docker.com/', 'joesan-docker-hub-credentials') {
     git credentialsId: '630bd271-01e7-48c3-bc5f-5df059c1abb8', url: 'https://github.com/joesan/monix-samples.git'
     
     sh "git rev-parse HEAD > .git/commit-id"
