@@ -33,24 +33,13 @@ Follow the steps below to import the project into IntelliJ
 
 ## Running the Application
 
+To run the application, perform the following steps:
+
+```
 1. Navigate to the project on your command line
 2. sbt run
 3. Open a WebSocket client on your browser [Chrome has a Simple WebSocket Client plugin]
 4. ws://localhost:9000/observable
-
-This application is built as a web application using the Play framework. To run the application,
-perform the following steps:
-
-```
-1. Open a terminal and navigate to the project root folder 
-   
-2. Issue the following command:
-   sbt run
-   
-3. Navigate to the following url on your favorite browser:
-   http://localhost:9000
-   
-   [TODO...] document!
 ```
 
 ## Built With
