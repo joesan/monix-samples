@@ -25,7 +25,6 @@ class MyConnectableObservable(service: ZombieConnectorService)(implicit s: Sched
     connection := BooleanCancelable { () =>
       service.disconnect()
     }
-
     connection
   }
 
